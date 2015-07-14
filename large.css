@@ -646,96 +646,6 @@ img {
 }
 
 
-.triangle-up {
-       position: relative;
-       margin-top:40px;
-       width: 50px;
-       display:inline;
-       float:left;
-   }
-   .triangle-up>div:before {
-       content:" ";
-       display: block;
-       width: 34px;
-       height: 5px;
-       background: #C5CBDF;
-       -webkit-transform: rotate(30deg);
-       -moz-transform: rotate(30deg);
-       -ms-transform: rotate(30deg);
-       transform: rotate(30deg);
-       position: absolute;
-       top: -8px;
-       right: -5px;
-   }
-
-.bounce-up:hover .triangle-up>div:before {
-    background:#6FA3FF;
-}
-   .triangle-up>div:after {
-       content:" ";
-       display: block;
-       width: 34px;
-       height: 5px;
-       background: #C5CBDF;
-       -webkit-transform: rotate(-30deg);
-       -moz-transform: rotate(-30deg);
-       -ms-transform: rotate(-30deg);
-       transform: rotate(-30deg);
-       position: absolute;
-       top: -8px;
-       left: -5px;
-   }
-
-.bounce-up:hover .triangle-up>div:after {
-    background:#6FA3FF;
-}
-  
-.triangle-down {
-      position: relative;
-       margin-top:200px;
-       width: 50px;
-       display:inline;
-       float:left;
-       
-   }
-
-.triangle-down>div:before {  /* left line */
-       content:" ";
-       display: block;
-       width: 34px;
-       height: 5px;
-       background: #C5CBDF;
-       -webkit-transform: rotate(-30deg);
-       -moz-transform: rotate(-30deg);
-       -ms-transform: rotate(-30deg);
-       transform: rotate(-30deg);
-       position: absolute;
-       bottom: 0px;
-       right: -5px;
-   }
-
-.bounce-down:hover .triangle-down>div:before {
-    background:#6FA3FF;  /* blue on hover*/
-}
-
-.triangle-down>div:after {   /* right line */
-       content:" ";
-       display: block;
-       width: 34px;
-       height: 5px;
-       background: #C5CBDF;
-       -webkit-transform: rotate(30deg);
-       -moz-transform: rotate(30deg);
-       -ms-transform: rotate(30deg);
-       transform: rotate(30deg);
-       position: absolute;
-       bottom: 0px;
-       left: -5px;
-   }
-.bounce-down:hover .triangle-down>div:after {
-    background:#6FA3FF;
-}
-
 .bounce-up {
        position: relative;
        margin: auto;
@@ -765,7 +675,7 @@ img {
    .bounce-down {
        position: relative;
        margin: auto;
-       top: 0;
+       top: 200px;
        bottom: 0;
        left: 0;
        right: 0;
@@ -777,10 +687,7 @@ img {
    .bounce-down:hover {
        position: relative;
        margin: auto;
-       top: 0;
-       bottom: 0;
-       left: 0;
-       right: 0;
+     
        width: 40px;
        height: 40px;
        font-size: 40px;
@@ -814,12 +721,7 @@ img {
    .backTop{
    	position:absolute;
    	bottom:40px;
-   	left:50%;
+   	left:45%;
+    padding:50px;
    }
 
-.footer{
-	width:100%;
-	float:center;
-	bottom:0px;
-	display : block;
-}

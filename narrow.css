@@ -162,9 +162,9 @@ input[type=checkbox]:checked ~ #menu{
 }
  
  .arrow_box_bottom p{
-	padding: 0px;
-	margin: 10px;
-	font-size: 20px;
+	padding: 10px;
+	margin: 5px;
+	font-size: 15px;
   	font-weight:300;
 	font-family: "Open Sans";
 	text-align:center;
@@ -304,7 +304,7 @@ input[type=checkbox]:checked ~ #menu{
 .arrow_box_top h3{
 	padding: 0px;
 	margin: 10px;
-	font-size: 25px;
+	font-size: 20px;
   	font-weight:300;
 	font-family: "Open Sans";
 	text-align:center;
@@ -314,7 +314,7 @@ input[type=checkbox]:checked ~ #menu{
  .arrow_box_top h2{
 	padding: 0px;
 	margin: 10px;
-	font-size: 15px;
+	font-size: 12px;
   	font-weight:300;
 	font-family: "Open Sans";
 	text-align:center;
@@ -347,15 +347,8 @@ input[type=checkbox]:checked ~ #menu{
 }
 /*/////----Work---///*/
 
-.banner{
-	position:absolute;
-	background-image: url("puzzle.jpg");
-	width:115%;
-	height:30%;
-	left:-7%;
-	margin:auto;
 
-}
+
 
 .title{
 	position:relative;
@@ -402,7 +395,7 @@ input[type=checkbox]:checked ~ #menu{
 
 .block{
 	position:relative;
-	min-height:650px;
+	min-height:700px;
 }
 
 .block .sectionImg{
@@ -410,7 +403,7 @@ input[type=checkbox]:checked ~ #menu{
 
 	position: relative;
 	height:275px;
-	width:300px;
+	width:250px;
 	padding-top:50px;
     left: 30%;   
 	
@@ -629,96 +622,11 @@ img {
 }
 
 
-.triangle-up {
-       position: relative;
-       margin-top:50px;
-       width: 50px;
-       display:inline;
-       float:left;
-   }
-   .triangle-up>div:before {
-       content:" ";
-       display: block;
-       width: 34px;
-       height: 5px;
-       background: #C5CBDF;
-       -webkit-transform: rotate(30deg);
-       -moz-transform: rotate(30deg);
-       -ms-transform: rotate(30deg);
-       transform: rotate(30deg);
-       position: absolute;
-       top: -8px;
-       right: -5px;
-   }
-
-.bounce-up:hover .triangle-up>div:before {
-    background:#6FA3FF;
-}
-   .triangle-up>div:after {
-       content:" ";
-       display: block;
-       width: 34px;
-       height: 5px;
-       background: #C5CBDF;
-       -webkit-transform: rotate(-30deg);
-       -moz-transform: rotate(-30deg);
-       -ms-transform: rotate(-30deg);
-       transform: rotate(-30deg);
-       position: absolute;
-       top: -8px;
-       left: -5px;
-   }
-
-.bounce-up:hover .triangle-up>div:after {
-    background:#6FA3FF;
-}
-   .triangle-down {
-      position: relative;
-       margin-top:40px;
-       width: 50px;
-       display:inline;
-       float:left;
-       
-   }
-   .triangle-down>div:before {
-       content:" ";
-       display: block;
-       width: 34px;
-       height: 5px;
-       background: #C5CBDF;
-       -webkit-transform: rotate(-30deg);
-       -moz-transform: rotate(-30deg);
-       -ms-transform: rotate(-30deg);
-       transform: rotate(-30deg);
-       position: absolute;
-       bottom: 0px;
-       right: -5px;
-   }
-.bounce-down:hover .triangle-down>div:before {
-    background:#6FA3FF;
-}
-   .triangle-down>div:after {
-       content:" ";
-       display: block;
-       width: 34px;
-       height: 5px;
-       background: #C5CBDF;
-       -webkit-transform: rotate(30deg);
-       -moz-transform: rotate(30deg);
-       -ms-transform: rotate(30deg);
-       transform: rotate(30deg);
-       position: absolute;
-       bottom: 0px;
-       left: -5px;
-   }
-.bounce-down:hover .triangle-down>div:after {
-    background:#6FA3FF;
-}
    .bounce-up {
        position: relative;
        margin: auto;
-       top: 0;
-       bottom: 0;
+       top: 5px;
+       bottom: 10px;
        left: 0;
        right: 0;
        width: 40px;
@@ -729,10 +637,6 @@ img {
    .bounce-up:hover {
        position: relative;
        margin: auto;
-       top: 0;
-       bottom: 0;
-       left: 0;
-       right: 0;
        width: 40px;
        height: 40px;
        font-size: 40px;
@@ -743,8 +647,8 @@ img {
    .bounce-down {
        position: relative;
        margin: auto;
-       top: 0;
-       bottom: 0;
+       top: 10px;
+       bottom: 5px;
        left: 0;
        right: 0;
        width: 40px;
@@ -755,10 +659,6 @@ img {
    .bounce-down:hover {
        position: relative;
        margin: auto;
-       top: 0;
-       bottom: 0;
-       left: 0;
-       right: 0;
        width: 40px;
        height: 40px;
        font-size: 40px;
@@ -790,8 +690,9 @@ img {
    }
    .backTop{
    	position:absolute;
-   	bottom:30px;
-   	left:220px;
+   	bottom:00px;
+   	left:170px;
+   	padding:50px;
    }
 .filler{
 	position:relative;

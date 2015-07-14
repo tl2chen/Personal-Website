@@ -406,7 +406,7 @@ input[type=checkbox] ~ #menu{
 
 .block{
 	position:relative;
-	min-height:650px;
+	min-height:750px;
 	padding-top:50px;
 }
 
@@ -616,103 +616,15 @@ img {
 }
 
 
-.triangle-up {
-       position: relative;
-       margin-top:50px;
-       width: 50px;
-       display:inline;
-       float:left;
-   }
- 
-.triangle-up>div:before {
-       content:" ";
-       display: block;
-       width: 34px;
-       height: 5px;
-       background: #C5CBDF;
-       -webkit-transform: rotate(30deg);
-       -moz-transform: rotate(30deg);
-       -ms-transform: rotate(30deg);
-       transform: rotate(30deg);
-       position: absolute;
-       top: -8px;
-       right: -5px;
-   }
 
-.bounce-up:hover .triangle-up>div:before {
-    background:#6FA3FF;
-}
-   .triangle-up>div:after {
-       content:" ";
-       display: block;
-       width: 34px;
-       height: 5px;
-       background: #C5CBDF;
-       -webkit-transform: rotate(-30deg);
-       -moz-transform: rotate(-30deg);
-       -ms-transform: rotate(-30deg);
-       transform: rotate(-30deg);
-       position: absolute;
-       top: -8px;
-       left: -5px;
-   }
 
-.bounce-up:hover .triangle-up>div:after {
-    background:#6FA3FF;
-}
-
-.triangle-down {
-      position: relative;
-       margin-top:50px;
-       width: 50px;
-       display:inline;
-       float:left;
-       
-   }
-
-.triangle-down>div:before {  /* left line */
-       content:" ";
-       display: block;
-       width: 34px;
-       height: 5px;
-       background: #C5CBDF;
-       -webkit-transform: rotate(-30deg);
-       -moz-transform: rotate(-30deg);
-       -ms-transform: rotate(-30deg);
-       transform: rotate(-30deg);
-       position: absolute;
-       bottom: 0px;
-       right: -5px;
-   }
-
-.bounce-down:hover .triangle-down>div:before {
-    background:#6FA3FF;  /* blue on hover*/
-}
-
-.triangle-down>div:after {   /* right line */
-       content:" ";
-       display: block;
-       width: 34px;
-       height: 5px;
-       background: #C5CBDF;
-       -webkit-transform: rotate(30deg);
-       -moz-transform: rotate(30deg);
-       -ms-transform: rotate(30deg);
-       transform: rotate(30deg);
-       position: absolute;
-       bottom: 0px;
-       left: -5px;
-   }
-.bounce-down:hover .triangle-down>div:after {
-    background:#6FA3FF;
-}
 
 .bounce-up {
        position: relative;
        margin: auto;
        top: 0;
        bottom: 0;
-       left: 0;
+       left: -30px;
        right: 0;
        width: 40px;
        height: 40px;
@@ -722,10 +634,7 @@ img {
    .bounce-up:hover {
        position: relative;
        margin: auto;
-       top: 0;
-       bottom: 0;
-       left: 0;
-       right: 0;
+     
        width: 40px;
        height: 40px;
        font-size: 40px;
@@ -736,9 +645,9 @@ img {
    .bounce-down {
        position: relative;
        margin: auto;
-       top: 0;
+       top: 0px;
        bottom: 0;
-       left: 0;
+       left: -30px;
        right: 0;
        width: 40px;
        height: 40px;
@@ -748,10 +657,7 @@ img {
    .bounce-down:hover {
        position: relative;
        margin: auto;
-       top: 0;
-       bottom: 0;
-       left: 0;
-       right: 0;
+      
        width: 40px;
        height: 40px;
        font-size: 40px;
@@ -787,4 +693,5 @@ img {
    	position:absolute;
    	bottom:0px;
    	left:250px;
+    padding:50px;
    }
